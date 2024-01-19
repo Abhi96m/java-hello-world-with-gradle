@@ -11,5 +11,9 @@ permissions:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+    
+    steps:
+      - run: 
+          echo "this is my manual workflow build. "
+      
